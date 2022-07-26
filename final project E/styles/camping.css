@@ -1,0 +1,151 @@
+/* the styles for the elements */
+html {
+	background-color: rgb(66, 54, 54);
+}
+
+body {
+    border: 2px solid black;
+    font-size: 20px;
+    width: 1000px;
+    margin-right: auto;
+	margin-left: auto;
+    background-color: beige;
+   
+}
+
+
+
+/* the styles for the header */
+header {
+    padding-top: 2em;
+    padding-bottom: .70em;
+    border-bottom: 3px solid black;
+    margin-bottom: 0;
+    text-align: center;
+    background-image:-webkit-radial-gradient(rgb(151, 94, 94), rgb(82, 145, 226));
+}
+
+header h2 {
+    font-size: 50px;
+    color: lime;
+    font-family: stencil;
+}
+
+a:focus, a:hover {
+    font-style: italic;
+}
+
+@font-face {
+    font-family: stencil;
+    src: url("STENCIL.TTF");
+}
+/* the styles for navigation menu*/
+#nav_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	position: relative;
+    border-bottom: solid black;
+    
+}
+
+#nav_menu ul li {float: left;
+    margin-right: 90px;
+}
+
+#nav_menu ul li:hover {
+	display: inline;
+}
+
+#nav_menu > ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#nav_menu ul li a {
+	display: block;
+	width: 160px;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-decoration: none;
+	background-color: rgb(69, 110, 69);
+	color: white;
+	font-weight: bold;
+}
+/* the styles for the section */
+section p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section img {
+    float: right;
+    display: inline;
+    max-width: 200px;
+    margin-right: 1em;
+    border-radius: 50%;
+}
+
+/* the styles for the article*/
+article { 
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+article ul {
+    text-align: left;
+}
+
+article h2 {
+    font-family: Arial Rounded MT Bold;
+}
+
+article h3 {
+    text-align: left;
+    text-decoration: underline;
+}
+
+article h4 {
+    font-family: Haettenschweiler; 
+}
+
+article img {
+    float: none;
+    display: inline;
+    max-width: 200px;
+    margin-right: 1em;
+    border-radius: 50%;
+}
+
+.shadow {
+    text-shadow: 2px 2px 2px rgb(64, 153, 64);
+}
+
+@font-face {
+    font-family: Haettenschweiler;
+    src: url("HATTEN.TTF");
+}
+
+@font-face {
+    font-family: Arial Rounded MT Bold;
+    src: url("ARLRDBD.TTF");
+}
+
+/* the styles for the aside */
+aside{
+    width: 80px;                    
+    float: right;  
+}
+
+/* the styles for the footer */
+footer {
+    background-color: black;
+    clear: both;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    padding: 0.5em 1em;
+}
